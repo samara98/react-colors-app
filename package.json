@@ -1,9 +1,9 @@
 {
-  "name": "colors-app",
+  "name": "react-colors-app",
   "version": "1.0.0",
   "description": "React - Colors App",
   "author": "Sulthon Abdul Malik",
-  "license": "MIT",
+  "license": "Unlicense",
   "main": "src",
   "scripts": {
     "start": "craco start",
@@ -13,33 +13,47 @@
     "prettier:file": "prettier -w \"{public,src}/**/*.{md,html,css,scss,json,js,jsx,ts,tsx,vue}\""
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "chroma-js": "^2.1.2",
+    "emoji-mart": "^3.0.1",
+    "rc-slider": "^9.7.2",
     "react": "^17.0.2",
+    "react-color": "^2.19.3",
+    "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^17.0.2",
+    "react-material-ui-form-validator": "^2.1.4",
+    "react-router-dom": "^5.2.0",
+    "react-router-transition": "^2.1.0",
     "react-scripts": "4.0.3",
+    "react-sortable-hoc": "^2.0.0",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
   "devDependencies": {
     "@craco/craco": "^6.1.2",
+    "@types/chroma-js": "^2.1.3",
+    "@types/emoji-mart": "^3.0.5",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.12.5",
     "@types/react": "^17.0.11",
+    "@types/react-color": "^3.0.4",
+    "@types/react-copy-to-clipboard": "^5.0.0",
     "@types/react-dom": "^17.0.8",
+    "@types/react-material-ui-form-validator": "^2.1.0",
+    "@types/react-router-dom": "^5.1.7",
     "craco-alias": "^3.0.1",
     "husky": "^4",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2"
   },
   "keywords": [],
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  "repository": "https://github.com/samara98/react-colors-app.git",
+  "bugs": "https://github.com/samara98/react-colors-app/issues",
   "jest": {
     "moduleNameMapper": {
       "~/(.*)": "<rootDir>/src/$1"
